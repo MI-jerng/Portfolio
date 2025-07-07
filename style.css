@@ -644,8 +644,8 @@
         margin-top: 0;
     }
     .about-image img {
-        width: 90px;
-        height: 90px;
+        width: 140px;
+        height: 140px;
     }
     .about-text h2 {
         font-size: 1.1rem;
@@ -656,34 +656,14 @@
     .about-text p {
         font-size: 0.9rem;
     }
-    .skills-grid,
-    .projects-grid {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-    }
-    .skill-card,
-    .project-card {
-        padding: 1rem;
-    }
-    .section-title {
-        margin-bottom: 2rem;
-    }
-    .contact-form {
-        padding: 1rem;
-    }
-    footer {
-        padding: 1rem 0;
-        font-size: 0.95rem;
-    }
-}
-
+ }
 @media (max-width: 400px) {
     .logo {
         font-size: 0.95rem;
     }
     .about-image img {
-        width: 60px;
-        height: 60px;
+        width: 90px;
+        height: 90px;
     }
     .about-text h2 {
         font-size: 0.95rem;
@@ -777,6 +757,26 @@ body.dark-mode header {
 body.dark-mode .hero,
 body.dark-mode .about-section,
 body.dark-mode .skills-section,
+body.dark-mode .projects-section,
+body.dark-mode .contact-section,
+body.dark-mode .contact-form,
+body.dark-mode .skill-card,
+body.dark-mode .project-card {
+    background: #212526;
+    color: #f8f9fa;
+}
+
+body.dark-mode .about-image img {
+    background: #212526;
+}
+
+body.dark-mode .hero h1 {
+    color: #fff;
+}
+
+body.dark-mode p {
+    color: #fff;
+}
 body.dark-mode .projects-section,
 body.dark-mode .contact-section,
 body.dark-mode .contact-form,
