@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+            
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">CHI MOENG</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <div class="dark-toggle-switch">
+                        <input type="checkbox" id="darkToggleSwitch" />
+                        <label for="darkToggleSwitch"></label>
+                        <span id="darkModeLabel">🌙</span>
+                    </div>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text animated">
+                <h1>Hi, I'm <span style="color: var(--primary);">Sav Moeng</span></h1>
+                <h2>Frontend Developer</h2>
+                <p>I create beautiful, responsive websites with clean code and exceptional user experiences. Passionate about JavaScript frameworks and modern CSS.</p>
+                <a href="#projects" class="btn wave">View My Work</a>
+                <div class="hero-social">
+                    <a href="https://www.facebook.com/share/1GSxrcweAA/?mibextid=wwXIfr" target="_blank" aria-label="Facebook" class="social-icon"><!-- Facebook SVG --><svg width="24" height="24" fill="currentColor"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692V11.01h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.696h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"></path></svg></a>
+                    <a href="https://github.com/MI-jerng" target="_blank" aria-label="GitHub" class="social-icon"><!-- GitHub SVG --><svg width="24" height="24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.305-5.466-1.334-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.624-5.475 5.921.43.372.823 1.102.823 2.222v3.293c0 .322.218.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/moeng-chi-129b20371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="LinkedIn" class="social-icon"><!-- LinkedIn SVG --><svg width="24" height="24" fill="currentColor"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.75 20h-3v-10h3v10zm-1.5-11.25c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.25 11.25h-3v-5.5c0-1.379-.028-3.156-1.922-3.156-1.922 0-2.218 1.5-2.218 3.051v5.605h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.839-1.563 3.036 0 3.6 2 3.6 4.59v5.606z"></path></svg></a>
+                </div>
+            </div>
+            <div class="hero-image animated delay-1">
+                <img src="photo_2025-06-19_21-20-27.jpg" />
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container about-content">
+            <div class="about-image">
+                <img src="photo_2025-06-19_21-20-27.jpg" alt="Sav Moeng Portrait" />
+            </div>
+            <div class="about-text">
+                <h2>About <span style="color:var(--primary);">Me</span></h2>
+                <h3>Frontend Developer & Computer Science Student</h3>
+                <p>
+                    Hello! My name is Chi Sav Moeng. I’m a 20-year-old Computer Science student at the Institute of Technology of Cambodia (ITC). I was born in Svay Rieng Province, and I’ve always been passionate about technology and software development.<br><br>
+                    Currently, I’m focused on expanding my knowledge in areas like algorithms, web development, and programming. I enjoy solving real-world problems through code and constantly seek opportunities to improve my skills and contribute to meaningful tech projects.<br><br>
+                    I'm enthusiastic about learning, building, and growing as a developer—and I’m excited about the future of technology in Cambodia and beyond.
+                </p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <p>Technologies I work with every day</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card animated delay-1">
+                    <div class="skill-icon">HTML</div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, accessibility, and modern HTML5 APIs.</p>
+                </div>
+                <div class="skill-card animated delay-1">
+                    <div class="skill-icon">CSS</div>
+                    <h3>CSS3</h3>
+                    <p>Responsive design, animations, Flexbox, Grid, and custom properties.</p>
+                </div>
+                <div class="skill-card animated delay-2">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, async programming, and modules.</p>
+                </div>
+                <div class="skill-card animated delay-2">
+                    <div class="skill-icon">React</div>
+                    <h3>React.js</h3>
+                    <p>Component-based architecture, hooks, context API, and state management.</p>
+                </div>
+                <div class="skill-card animated delay-3">
+                    <div class="skill-icon">Git</div>
+                    <h3>Version Control</h3>
+                    <p>Git workflows, branching strategies, and collaboration.</p>
+                </div>
+                <!-- <div class="skill-card animated delay-3">
+                    <div class="skill-icon">API</div>
+                    <h3>REST APIs</h3>
+                    <p>Fetch, Axios, JSON handling, and authentication.</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>A selection of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animated">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-06-28 003930.png"/>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Store</h3>
+                        <p>A responsive online store built with React, Redux, and Firebase authentication.</p>
+                        <div class="project-links">
+                            <a href="https://mi-jerng.github.io/Fast-Food-website/" target="_blank" rel="noopener">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animated delay-1">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-07-05 152355.png" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Typing Master</h3>
+                        <p>Learn how to typing fast in real time.</p>
+                        <div class="project-links">
+                            <a href="https://mi-jerng.github.io/i3_typing_master/" target="_blank" rel="noopener">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animated delay-2">
+                    <div class="project-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/01b94eed-eb02-4586-8099-f971001e514a.png" alt="Task manager application with colorful task cards in kanban board layout" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Attendance tracking</h3>
+                        <p>Tracking Attendance student in school .</p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank" rel="noopener">Live Demo</a> -->
+                            <a href="https://github.com/MI-jerng/attendance-sys" target="_blank" rel="noopener">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind? Let's talk about it!</p>
+            </div>
+            <div class="contact-form animated">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Frontend Developer Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
+
